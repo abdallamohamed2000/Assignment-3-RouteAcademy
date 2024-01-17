@@ -339,7 +339,25 @@
                         }
                         #home .caption p {
                             font-size: 17px;
-                            padding-inline: 27% 27%;
+                            padding-inline: 20% 20%;
                             line-height: 1.4;
                         }
+                    }
+
+
+                    @media (max-width: 500px) {
+                        #home .caption .btn1,
+                        #home .caption .btn2 {
+                            padding: 12px 18px;
+                            
+                        }
+                        #home .caption p {
+                            font-size: 14px;
+                            padding-inline: 18%;
+                            line-height: 1.4;
+                        }
+                        #final img {
+                            width: 80%;
+                        }
+                     
                     }
